@@ -1,0 +1,12 @@
+# SET PATH
+path: ../data
+
+train: images/train
+val: images/val
+test: images/test
+
+nc: 2
+
+names:
+  0: "undamaged building"
+  1: "damaged building"

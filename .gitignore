@@ -1,0 +1,7 @@
+data/
+yolos/yolov5/
+yolos/yolov8/
+yolos/yolov8_seg/
+yolos/yolov10/
+yolos/yolov10_direct_run/
+documentation/documentation.docx

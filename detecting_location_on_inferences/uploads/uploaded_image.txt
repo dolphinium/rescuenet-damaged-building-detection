@@ -1,0 +1,126 @@
+---- ExifTool ----
+ExifTool Version Number         : 12.92
+Warning                         : [minor] Possibly incorrect maker notes offsets (fix by 1415?)
+---- System ----
+File Name                       : uploaded_image.jpg
+Directory                       : .
+File Size                       : 2.4 MB
+File Modification Date/Time     : 2024:08:02 13:03:35+03:00
+File Access Date/Time           : 2024:08:02 13:03:37+03:00
+File Inode Change Date/Time     : 2024:08:02 13:03:35+03:00
+File Permissions                : -rw-r--r--
+---- File ----
+File Type                       : JPEG
+File Type Extension             : jpg
+MIME Type                       : image/jpeg
+Exif Byte Order                 : Little-endian (Intel, II)
+Image Width                     : 4000
+Image Height                    : 3000
+Encoding Process                : Baseline DCT, Huffman coding
+Bits Per Sample                 : 8
+Color Components                : 3
+Y Cb Cr Sub Sampling            : YCbCr4:2:0 (2 2)
+---- JFIF ----
+JFIF Version                    : 1.01
+Resolution Unit                 : None
+X Resolution                    : 1
+Y Resolution                    : 1
+---- IFD0 ----
+Image Description               : DCIM\100MEDIA\DJI_0840.JPG
+Make                            : DJI
+Camera Model Name               : FC220
+Orientation                     : Horizontal (normal)
+X Resolution                    : 72
+Y Resolution                    : 72
+Resolution Unit                 : inches
+Software                        : v02.08.5668
+Modify Date                     : 2018:10:13 13:43:35
+Y Cb Cr Positioning             : Centered
+XP Comment                      : 0.9.143
+XP Keywords                     : N
+---- ExifIFD ----
+Exposure Time                   : 1/2793
+F Number                        : 2.2
+Exposure Program                : Program AE
+ISO                             : 100
+Exif Version                    : 0230
+Date/Time Original              : 2018:10:13 13:43:35
+Create Date                     : 2018:10:13 13:43:35
+Components Configuration        : -, Cr, Cb, Y
+Compressed Bits Per Pixel       : 3.019188667
+Shutter Speed Value             : 1/2788
+Aperture Value                  : 2.2
+Exposure Compensation           : 0
+Max Aperture Value              : 2.2
+Subject Distance                : 0 m
+Metering Mode                   : Center-weighted average
+Light Source                    : Unknown
+Flash                           : No flash function
+Focal Length                    : 4.7 mm
+Flashpix Version                : 0010
+Color Space                     : sRGB
+Exif Image Width                : 4000
+Exif Image Height               : 3000
+Exposure Index                  : undef
+File Source                     : Digital Camera
+Scene Type                      : Unknown (0)
+Custom Rendered                 : Normal
+Exposure Mode                   : Auto
+White Balance                   : Auto
+Digital Zoom Ratio              : undef
+Focal Length In 35mm Format     : 26 mm
+Scene Capture Type              : Standard
+Gain Control                    : None
+Contrast                        : Normal
+Saturation                      : Normal
+Sharpness                       : Hard
+Device Setting Description      : (Binary data 4 bytes, use -b option to extract)
+Subject Distance Range          : Unknown
+---- DJI ----
+Make                            : DJI
+DJI 0x0002                      : 1 2 0 0
+Speed X                         : +6.10
+Speed Y                         : +3.60
+Speed Z                         : +0.00
+Pitch                           : -10.50
+Yaw                             : +31.00
+Roll                            : +0.30
+Camera Pitch                    : -90.00
+Camera Yaw                      : +30.60
+Camera Roll                     : +0.00
+DJI 0x0015                      : ‡.
+DJI 0x0016                      : ..
+---- InteropIFD ----
+Interoperability Index          : R98 - DCF basic file (sRGB)
+Interoperability Version        : 0100
+---- GPS ----
+GPS Version ID                  : 3.2.0.0
+GPS Latitude Ref                : North
+GPS Latitude                    : 29 deg 57' 2.78"
+GPS Longitude Ref               : West
+GPS Longitude                   : 85 deg 25' 38.49"
+GPS Altitude Ref                : Above Sea Level
+GPS Altitude                    : 47.905 m
+---- IFD1 ----
+Compression                     : JPEG (old-style)
+X Resolution                    : 72
+Y Resolution                    : 72
+Resolution Unit                 : inches
+Thumbnail Offset                : 42002
+Thumbnail Length                : 7558
+Thumbnail Image                 : (Binary data 7558 bytes, use -b option to extract)
+---- Composite ----
+Aperture                        : 2.2
+Image Size                      : 4000x3000
+Megapixels                      : 12.0
+Scale Factor To 35 mm Equivalent: 5.5
+Shutter Speed                   : 1/2793
+GPS Altitude                    : 47.9 m Above Sea Level
+GPS Latitude                    : 29 deg 57' 2.78" N
+GPS Longitude                   : 85 deg 25' 38.49" W
+Circle Of Confusion             : 0.005 mm
+Field Of View                   : 69.4 deg
+Focal Length                    : 4.7 mm (35 mm equivalent: 26.0 mm)
+GPS Position                    : 29 deg 57' 2.78" N, 85 deg 25' 38.49" W
+Hyperfocal Distance             : 1.85 m
+Light Value                     : 13.7
