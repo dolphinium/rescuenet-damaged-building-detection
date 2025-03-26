@@ -1,39 +1,71 @@
-# RescueNet: A High Resolution UAV Semantic Segmentation Dataset for Natural Disaster Damage Assessment 
->https://www.kaggle.com/datasets/yaroslavchyrko/rescuenet
+# RescueNet: Damaged Building Detection
+> High Resolution UAV Semantic Segmentation for Natural Disaster Damage Assessment
 
-# Test the model on HF Spaces working with best weights found:
->https://huggingface.co/spaces/dolphinium/rescuenet-damaged-building-detection
+## 📋 Project Overview
+This project implements semantic segmentation for detecting damaged buildings in UAV imagery using the RescueNet dataset. The model helps in rapid damage assessment during natural disasters using drone footage.
 
-# Check experiment results @cometML platform:
->https://www.comet.com/dolphinium/rescuenet-damaged-building-detection/view/new/panels
+## 🔍 Quick Links
+- [Dataset on Kaggle](https://www.kaggle.com/datasets/yaroslavchyrko/rescuenet)
+- [Live Demo on Hugging Face Spaces](https://huggingface.co/spaces/dolphinium/rescuenet-damaged-building-detection)
+- [Experiment Results on CometML](https://www.comet.com/dolphinium/rescuenet-damaged-building-detection/view/new/panels)
+- [Full Documentation (PDF)](https://github.com/dolphinium/rescuenet-damaged-building-detection/blob/main/documentation/documentation.pdf)
 
-# Check documentation pdf: 
-> [documentation](https://github.com/dolphinium/rescuenet-damaged-building-detection/blob/main/documentation/documentation.pdf)
+## 📊 Model Performance
+Below is a comparison of different model architectures tested on the RescueNet dataset:
 
-# Model comparison table:
-![model_comparison_table](figures/model_comparison_table.jpeg)
+![Model Comparison Table](figures/model_comparison_table.jpeg)
 
+## 🛠️ Tools and Technologies Used
 
-# Technologies and frameworks used on this project:
-* Yolov5-8-10 
-* CometML(For monitoring and maintaining models performance)
-* Huggingface Spaces(For hosting and deploying models)
-* Gradio(For building a web app)
-* Folium(For mapping)
-* PyEXIFTool(For extracting metadata from drone imagery)
+### Deep Learning & Computer Vision
+* YOLOv5/v8/v10 - State-of-the-art object detection and segmentation models
+* PyTorch - Deep learning framework
+* OpenCV - Image processing and computer vision operations
 
+### Model Development & Monitoring
+* CometML - Experiment tracking, model monitoring, and performance visualization
+* Weights & Biases - Model versioning and experiment tracking (alternative)
 
-# Known Issues:
-* Problem with extracting metadata from images on HF Spaces platform. Image metadata extracting is working fine on local but problematic at host. Default parameter values are used for now. See issue at HF forums at following URL:
-https://discuss.huggingface.co/t/image-lost-xmp-data-on-uploads/100954
+### Deployment & Hosting
+* Hugging Face Spaces - Model hosting and deployment platform
+* Gradio - Web interface development for machine learning models
 
+### Geospatial Processing
+* Folium - Interactive map visualization
+* PyEXIFTool - Metadata extraction from drone imagery
+* GDAL - Geospatial data processing (for coordinate transformations)
 
+### Development Tools
+* Python - Primary programming language
+* Git - Version control
+* Docker - Containerization (for deployment)
 
+### Data Processing & Analysis
+* NumPy - Numerical computing and array operations
+* Pandas - Data manipulation and analysis
+* Pillow (PIL) - Image processing
+* Matplotlib - Data visualization
 
-## TODOS:
-* Fine-tuning the model.
-* Creating requirements.txt for the project.
-* Editing the readme for a better documentation.
-* Making the geolocations more precise.
-* Cleaning up and creating a new repository for hosting.
+## ⚠️ Known Issues
+1. **Metadata Extraction on HF Spaces**: 
+   - Issue with extracting image metadata on the Hugging Face Spaces platform
+   - Works correctly locally but fails on hosted environment
+   - Currently using default parameter values as a workaround
+   - [Related Discussion on HF Forums](https://discuss.huggingface.co/t/image-lost-xmp-data-on-uploads/100954)
+
+## 📝 TODO List
+- [ ] Fine-tune the model for improved performance
+- [ ] Create comprehensive requirements.txt
+- [ ] Enhance documentation
+- [ ] Improve geolocation precision
+- [ ] Clean up and migrate to new repository for hosting
+
+## 🤝 Contributing
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📄 License
+[Add License Information]
+
+## 📬 Contact
+[Add Contact Information]
 
